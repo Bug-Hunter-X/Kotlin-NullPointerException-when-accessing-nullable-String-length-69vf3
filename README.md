@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Kotlin: a NullPointerException when working with nullable strings. The `processData` function attempts to access the length of a potentially null string. The solution shows how to safely handle null values using the elvis operator(?:) or the safe call operator?.
